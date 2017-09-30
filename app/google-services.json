@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "757861683838",
+    "firebase_url": "https://school-firebase.firebaseio.com",
+    "project_id": "school-firebase",
+    "storage_bucket": "school-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757861683838:android:688280cc8f25acf6",
+        "android_client_info": {
+          "package_name": "com.example.abdelstar1.school_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757861683838-ke8rkl08c598rtmr71qi824jnhdht36s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdelstar1.school_firebase",
+            "certificate_hash": "baa97e3b31208b1b041106611c2b5cdfc936d53a"
+          }
+        },
+        {
+          "client_id": "757861683838-33rt1udn83j8knigndlk5k883f4835cr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdelstar1.school_firebase",
+            "certificate_hash": "0dce4910ca96cab6d74a2d31316e4734193c28aa"
+          }
+        },
+        {
+          "client_id": "757861683838-o1j6oa6sr3i99962c1a8l0ik8difrnm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_b8jHgt9_5x8waHjlx2IRWHmMXW58gmo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757861683838-o1j6oa6sr3i99962c1a8l0ik8difrnm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757861683838:android:000dc8db601dd44a",
+        "android_client_info": {
+          "package_name": "com.schoolh2.h2scool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757861683838-ikbvo2oj1tmr1miumatm84cth0gurq3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.schoolh2.h2scool",
+            "certificate_hash": "baa97e3b31208b1b041106611c2b5cdfc936d53a"
+          }
+        },
+        {
+          "client_id": "757861683838-o1j6oa6sr3i99962c1a8l0ik8difrnm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_b8jHgt9_5x8waHjlx2IRWHmMXW58gmo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757861683838-o1j6oa6sr3i99962c1a8l0ik8difrnm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

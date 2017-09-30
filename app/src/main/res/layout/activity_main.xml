@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h2"
+    tools:context="com.schoolh2.h2scool.MainActivity">
+
+    <EditText
+        android:hint="Email ..."
+        android:gravity="center"
+        android:id="@+id/editTextUsernameLogin"
+        android:layout_margin="10dp"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:hint="Password"
+        android:gravity="center"
+        android:id="@+id/editTextpasswordLogin"
+        android:layout_margin="10dp"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUsernameLogin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <Button
+
+        android:id="@+id/buttonLogin"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:layout_width="349dp"
+        android:layout_height="49dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextpasswordLogin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <Button
+
+        android:id="@+id/buttonGo"
+        android:text="New User >> Register"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+
+
+        android:layout_width="348dp"
+        android:layout_height="51dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>
