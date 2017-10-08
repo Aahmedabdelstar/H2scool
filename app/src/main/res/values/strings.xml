@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">H2scool</string>
+    <string name="btn_chat_text">Chat with a teacher</string>
+    <string name="user_name_text">User Name</string>
+    <string name="chat_text">Chat</string>
+    <string name="no_chat_yet">No Chat yet</string>
+    <string name="write_a_message">Write a message...</string>
 </resources>
